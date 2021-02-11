@@ -1,0 +1,19 @@
+Sub Format()
+Dim range_to_format As Range
+
+Set range_to_format = Range("B2:B11")
+range_to_format.NumberFormat = "#,##0.00 $;-#,##0.00 $"
+
+Set range_to_format = Range("C2:C11")
+range_to_format.NumberFormat = "_-* #,##0.00 $_-;-* #,##0.00 $_-;_-*'-'?? $_-;_-@_-"
+
+Set range_to_format = Range("E2:E11")
+range_to_format.NumberFormat = "#,##0.00 $;-#,##0.00 $"
+
+Set range_to_format = Range("F2:F11")
+range_to_format.NumberFormat = "_-* #,##0.00 $_-;-* #,##0.00 $_-;_-*'-'?? $_-;_-@_-"
+
+Set range_to_format = Range("G2:G11")
+range_to_format.NumberFormat = "#,##0.0000"
+
+End Sub
